@@ -14,3 +14,8 @@ Useful commands:
 - tree -> shows a tree of folders
 - docker exec -it container_name /bin/bash -> exec bash in a container and enter to work
 
+
+https://docs.docker.com/reference/cli/docker/compose/
+
+https://www.server-world.info/en/note?os=Debian_12&p=nodejs&f=6
+

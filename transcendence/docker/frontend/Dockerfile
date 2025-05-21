@@ -11,7 +11,7 @@ COPY front ./
 # Build the typescript
 RUN npm run build
 
-# build the talwind
+# build the talwind // This should be done at package.json??
 RUN npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify
 
 #cpy files manually
