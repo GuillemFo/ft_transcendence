@@ -19,3 +19,6 @@ https://docs.docker.com/reference/cli/docker/compose/
 
 https://www.server-world.info/en/note?os=Debian_12&p=nodejs&f=6
 
+To do gforns:
+investigate if compile tailwind css at package.json
+prepare a shared folder with local and docker
