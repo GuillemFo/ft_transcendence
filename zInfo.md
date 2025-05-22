@@ -22,3 +22,6 @@ https://www.server-world.info/en/note?os=Debian_12&p=nodejs&f=6
 To do gforns:
 investigate if compile tailwind css at package.json
 prepare a shared folder with local and docker
+
+moving to glopez branch:
+https://github.com/5d10/ft_dancingtrans
