@@ -15,13 +15,21 @@ Useful commands:
 - docker exec -it container_name /bin/bash -> exec bash in a container and enter to work
 
 
-https://docs.docker.com/reference/cli/docker/compose/
-
-https://www.server-world.info/en/note?os=Debian_12&p=nodejs&f=6
-
 To do gforns:
-investigate if compile tailwind css at package.json
-prepare a shared folder with local and docker
+- User tokens
+- Tournament page
+- Style register and login page for 320px (min-w-80) min wide 80
+- lock max len of username and fix regex back and front.
 
-moving to glopez branch:
-https://github.com/5d10/ft_dancingtrans
+
+As of 07.07 at 10.25am:
+	multiple changes: general buttons, change dash to profile,
+	added notes for tokens, implemented basic design for user
+	profile...
+	
+	Discarted idea: 'Now ill try to work with a single main page
+	and update all the code to it instead of rendering 
+	everything all time. ill do new branch for it'
+
+
+

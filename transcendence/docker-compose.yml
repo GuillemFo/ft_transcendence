@@ -1,15 +1,171 @@
 networks:
- transcendence:
-  name: transcendence
-  driver: bridge
+  transcendence:
+    name: transcendence
+    driver: bridge
 
 services:
-  frontend:
-    container_name: front
+  front:
+     container_name: front
+     restart: always
+     build:
+      context: .
+      dockerfile: front/Dockerfile
+     networks:
+      - transcendence
+     ports:
+       - "3000:3000"
+    # volumes:
+    # - vol_front:/app/front
+     secrets:
+      - server-certificate.pem
+      - server-key.pem
+
+  nexus:
+    container_name: nexus
+    restart: always
     build:
-     context: .
-     dockerfile: docker/frontend/Dockerfile
+      context: back/nexus/
+      dockerfile: Dockerfile
+    networks:
+      - transcendence
+    #* uncomment for swagger ui
+    # ports:
+      # - "3001:3001"
+    hostname: nexus
+    volumes:
+      - dev_nexus_src_vol:/api/src
+    secrets:
+      - password-jwt
+
+  socketer:
+    container_name: socketer
+    restart: always
+    build:
+      context: back/socketer/
+      dockerfile: Dockerfile
     networks:
       - transcendence
     ports:
-      - "3000:3000"
+      - "3004:3004"
+    hostname: socketer
+    volumes:
+      - dev_socketer_src_vol:/api/src
+    secrets:
+      - server-certificate.pem
+      - server-key.pem
+      - password-jwt
+
+  user_management:
+    container_name: back_user_management
+    restart: always
+    build:
+      context: back/user_management/
+      dockerfile: Dockerfile
+    networks:
+      - transcendence
+    hostname: user_management
+    volumes:
+      - um_sqlite_vol:/api/db
+      - dev_um_src_vol:/api/src
+
+  avatars:
+    container_name: avatars
+    restart: always
+    build:
+      context: back/avatars/
+      dockerfile: Dockerfile
+    networks:
+      - transcendence
+    hostname: avatars
+    volumes:
+      - avatars_vol:/api/avatars
+      - dev_avatars_src_vol:/api/src
+    secrets:
+      - password-jwt
+
+  match_history:
+    container_name: back_match_history
+    restart: always
+    build:
+      context: back/match_history/
+      dockerfile: Dockerfile
+    networks:
+      - transcendence
+    hostname: match_history
+    volumes:
+      - mh_sqlite_vol:/api/db
+      - dev_mh_src_vol:/api/src
+
+secrets:
+  #* "/run/secrets/server-certificate.pem"
+  server-certificate.pem:
+    file: ./certs/server-cert.pem
+  server-key.pem:
+    file: ./certs/server-key.pem
+  password-jwt:
+    file: ./passwords/jwt
+
+volumes:
+  vol_front:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: "./front/app_vite"
+
+  um_sqlite_vol:
+    driver: local
+    driver_opts:
+      type: none
+      device: ./volumes/um_sqlite
+      o: bind
+
+  mh_sqlite_vol:
+    driver: local
+    driver_opts:
+      type: none
+      device: ./volumes/mh_sqlite
+      o: bind
+
+  avatars_vol:
+    driver: local
+    driver_opts:
+      type: none
+      device: ./volumes/avatars
+      o: bind
+
+#* Development volumes
+  dev_um_src_vol:
+    driver: local
+    driver_opts:
+      type: none
+      device: ./back/user_management/src
+      o: bind
+
+  dev_nexus_src_vol:
+    driver: local
+    driver_opts:
+      type: none
+      device: ./back/nexus/src
+      o: bind
+
+  dev_socketer_src_vol:
+    driver: local
+    driver_opts:
+      type: none
+      device: ./back/socketer/src
+      o: bind
+
+  dev_avatars_src_vol:
+    driver: local
+    driver_opts:
+      type: none
+      device: ./back/avatars/src
+      o: bind
+
+  dev_mh_src_vol:
+      driver: local
+      driver_opts:
+        type: none
+        device: ./back/match_history/src
+        o: bind

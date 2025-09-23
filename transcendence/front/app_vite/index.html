@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- MINIMUM RESPONSIVE min-w-xs or 320px -->
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Orbitron&display=swap" rel="stylesheet">
+<meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://accounts.google.com">
+
+	<link rel="prefetch" href="/Pong.png" as="image" />
+	<link rel="prefetch" href="/default.jpg" as="image" />
+	
+	<link href="./src/tailwind.css" rel="stylesheet" />
+	<title>Pong</title>
+</head>
+
+<body>
+	<div class="bg-soft-gradient ">
+
+		<div class="flex min-h-dvh min-w-xs flex-col flex-grow bg-dot-pattern p-2">
+			<div class="rounded-3xl min-h-[calc(100dvh-15rem)] overflow-auto p-2 w-full"> <!-- the min-w (320px) or xs of the bg needs to be fixed-->
+				<div id="app"></div>
+			</div>
+
+
+			
+			<!-- Need to improve footer -->
+			<footer class="container flex-grow mx-auto mt-6 px-4 py-6 text-white">
+				<div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+					<div>
+						<p class="text-sm">Transcendence project by 42-Barcelona</p>
+						<p class="mt-2 text-sm">
+							Developed with love by: glopez-m blvilarn pfontenl gforns-s
+						</p>
+					</div>
+				</div>
+				<div class="mt-4 text-center text-xs text-gray-400">
+					<p>&copy; 2025 Transcendence. All rights reserved.</p>
+					<p>This website only stores the essential information for proper functioning. This includes your email, your username, matches played and your game stats. This can be deleted at any moment. We do not process any data or share it with any third parties. Google users are subject to google's privacy policy.
+</p>
+				</div>
+			</footer>
+		</div>
+		<script type="module" src="./src/main.ts"></script>
+	</div>
+	</body>
+
+</html>
