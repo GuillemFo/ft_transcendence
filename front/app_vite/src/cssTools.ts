@@ -144,7 +144,7 @@ export function createSelect(id: string, css: string, options: {value: string, t
 }
 
 
-// Too hard to implment - To be explored after evaluation ;)
+
 // function greenRing(input)
 // {
 // 	if (input.value)
