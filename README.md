@@ -38,44 +38,64 @@ At its core, the project is about:
 
 
 ## Screenshots
-## Screenshots
 
 ### Custom Maps
 
-<img src="Screenshots/custom%20map%201.png" alt="Custom Map 1" width="400"/>  
-<img src="Screenshots/custom%20map%202.png" alt="Custom Map 2" width="400"/>  
-<img src="Screenshots/custom%20map%203.png" alt="Custom Map 3" width="400"/>  
-<img src="Screenshots/custom%20map%204.png" alt="Custom Map 4" width="400"/>  
+<p>
+  <img src="Screenshots/custom%20map%201.png" alt="Custom Map 1" width="400"/>
+  <img src="Screenshots/custom%20map%202.png" alt="Custom Map 2" width="400"/>
+</p>
+<p>
+  <img src="Screenshots/custom%20map%203.png" alt="Custom Map 3" width="400"/>
+  <img src="Screenshots/custom%20map%204.png" alt="Custom Map 4" width="400"/>
+</p>
 
 ### Dashboard
 
-<img src="Screenshots/dashboard%20.png" alt="Dashboard" width="400"/>  
-<img src="Screenshots/dashboard%202.png" alt="Dashboard 2" width="400"/>  
-<img src="Screenshots/dashboard%203%20friends.png" alt="Dashboard 3 Friends" width="400"/>  
-<img src="Screenshots/dashboard%204%20friends%20status.png" alt="Dashboard 4 Friends Status" width="400"/>  
+<p>
+  <img src="Screenshots/dashboard%20.png" alt="Dashboard" width="400"/>
+  <img src="Screenshots/dashboard%202.png" alt="Dashboard 2" width="400"/>
+</p>
+<p>
+  <img src="Screenshots/dashboard%203%20friends.png" alt="Dashboard 3 Friends" width="400"/>
+  <img src="Screenshots/dashboard%204%20friends%20status.png" alt="Dashboard 4 Friends Status" width="400"/>
+</p>
 
 ### Home & Login
 
-<img src="Screenshots/Home%20.png" alt="Home" width="400"/>  
-<img src="Screenshots/login%20.png" alt="Login" width="400"/>  
-<img src="Screenshots/register%20.png" alt="Register" width="400"/>  
+<p>
+  <img src="Screenshots/Home%20.png" alt="Home" width="400"/>
+  <img src="Screenshots/login%20.png" alt="Login" width="400"/>
+</p>
+<p>
+  <img src="Screenshots/register%20.png" alt="Register" width="400"/>
+</p>
 
 ### Matches
 
-<img src="Screenshots/normal%20match.png" alt="Normal Match" width="400"/>  
-<img src="Screenshots/match%20settings.png" alt="Match Settings" width="400"/>  
-<img src="Screenshots/match%20stats.png" alt="Match Stats" width="400"/>  
-<img src="Screenshots/match%20history.png" alt="Match History" width="400"/>  
-<img src="Screenshots/Tournament%20win.png" alt="Tournament Win" width="400"/>  
+<p>
+  <img src="Screenshots/normal%20match.png" alt="Normal Match" width="400"/>
+  <img src="Screenshots/match%20settings.png" alt="Match Settings" width="400"/>
+</p>
+<p>
+  <img src="Screenshots/match%20stats.png" alt="Match Stats" width="400"/>
+  <img src="Screenshots/match%20history.png" alt="Match History" width="400"/>
+</p>
+<p>
+  <img src="Screenshots/Tournament%20win.png" alt="Tournament Win" width="400"/>
+</p>
 
 ### Miscellaneous Screenshots
 
-<img src="Screenshots/Screenshot%20from%202025-09-30%2015-09-58.png" alt="Screenshot 2025-09-30 15-09-58" width="400"/>  
-<img src="Screenshots/Screenshot%20from%202025-09-30%2015-11-20.png" alt="Screenshot 2025-09-30 15-11-20" width="400"/>  
-<img src="Screenshots/Screenshot%20from%202025-09-30%2015-11-30.png" alt="Screenshot 2025-09-30 15-11-30" width="400"/>  
-<img src="Screenshots/Screenshot%20from%202025-09-30%2015-11-56.png" alt="Screenshot 2025-09-30 15-11-56" width="400"/>  
-<img src="Screenshots/Screenshot%20from%202025-09-30%2015-12-49.png" alt="Screenshot 2025-09-30 15-12-49" width="400"/>  
-<img src="Screenshots/Screenshot%20from%202025-09-30%2015-13-50.png" alt="Screenshot 2025-09-30 15-13-50" width="400"/>  
-
-
-
+<p>
+  <img src="Screenshots/Screenshot%20from%202025-09-30%2015-09-58.png" alt="Screenshot 2025-09-30 15-09-58" width="400"/>
+  <img src="Screenshots/Screenshot%20from%202025-09-30%2015-11-20.png" alt="Screenshot 2025-09-30 15-11-20" width="400"/>
+</p>
+<p>
+  <img src="Screenshots/Screenshot%20from%202025-09-30%2015-11-30.png" alt="Screenshot 2025-09-30 15-11-30" width="400"/>
+  <img src="Screenshots/Screenshot%20from%202025-09-30%2015-11-56.png" alt="Screenshot 2025-09-30 15-11-56" width="400"/>
+</p>
+<p>
+  <img src="Screenshots/Screenshot%20from%202025-09-30%2015-12-49.png" alt="Screenshot 2025-09-30 15-12-49" width="400"/>
+  <img src="Screenshots/Screenshot%20from%202025-09-30%2015-13-50.png" alt="Screenshot 2025-09-30 15-13-50" width="400"/>
+</p>
