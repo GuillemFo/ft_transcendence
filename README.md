@@ -36,3 +36,20 @@ At its core, the project is about:
 - **Makefile-based build & run** system  
 - **Responsive UI**  
 
+
+## Screenshots
+
+### Login & Register
+![Login](Screenshots/login%20.png)
+![Register](Screenshots/register%20.png)
+
+### Dashboard
+![Dashboard](Screenshots/dashboard%202.png)
+![Friends List](Screenshots/dashboard%203%20friends.png)
+
+### Matches
+![Match Settings](Screenshots/match%20settings.png)
+![Match Stats](Screenshots/match%20stats.png)
+![Tournament Win](Screenshots/Tournament%20win.png)
+
+
