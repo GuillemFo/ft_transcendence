@@ -85,7 +85,7 @@ At its core, the project is about:
   <img src="Screenshots/Tournament%20win.png" alt="Tournament Win" width="400"/>
 </p>
 
-### Miscellaneous Screenshots
+### Extra Screenshots
 
 <p>
   <img src="Screenshots/Screenshot%20from%202025-09-30%2015-09-58.png" alt="Screenshot 2025-09-30 15-09-58" width="400"/>
