@@ -121,10 +121,9 @@ http://localhost:3000
 
 ---
 
-### Matches
+### Match stats
 <p>
   <img src="Screenshots/match%20stats.png" alt="Match Stats" width="400"/>
-  <img src="Screenshots/match%20history.png" alt="Match History" width="400"/>
 </p>
 
 ---
