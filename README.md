@@ -1,3 +1,4 @@
+*****AI used to explain this project*****
 # ft_transcendence
 
 A full-stack multiplayer Pong platform built as the final project of the **42 Common Core**.
